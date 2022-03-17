@@ -72,8 +72,8 @@ async def _get_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     markup = None
     output = f"""
 **⏱ Uptime** : `{userge.uptime}`
-**💡 Version** : `{await ver.get_full_version()}`
-**⚙️ Mode** : `{_get_mode().upper()}`
+**💡 Version** : `6.9`
+**⚙️ Mode** : `BERSERKERS`
 
 • **Sudo**: `{_parse_arg(sudo.Dynamic.ENABLED)}`"""
     if pmpermit is not None:
